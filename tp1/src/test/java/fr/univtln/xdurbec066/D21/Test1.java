@@ -1,6 +1,6 @@
 package fr.univtln.xdurbec066.D21;
-
 import fr.univtln.xdurbec066.D21.chien.Chien;
+
 import fr.univtln.xdurbec066.D21.personne.Personne;
 
 import javax.persistence.EntityManager;

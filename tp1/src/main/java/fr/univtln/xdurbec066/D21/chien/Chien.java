@@ -2,22 +2,20 @@ package fr.univtln.xdurbec066.D21.chien;
 
 import fr.univtln.xdurbec066.D21.personne.Personne;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 import java.io.Serializable;
 
 /**
  * Created by xdurbec066 on 01/03/17.
  */
 
-@Entity
+ @Entity
 public class Chien implements Serializable{
     @Id
    private int id;
 
     private String nom;
+
     @OneToOne
     private Personne personne;
 

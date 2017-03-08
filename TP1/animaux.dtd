@@ -1,0 +1,13 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Animaux (Enclos)+>
+
+<!ELEMENT Enclos (Animal)+>
+<!ATTLIST Enclos
+  nom  CDATA #REQUIRED>
+
+<!ELEMENT Animal (#PCDATA)>
+<!ATTLIST Animal
+  famille CDATA #REQUIRED
+  malade  CDATA #IMPLIED
+  nom  CDATA #REQUIRED>

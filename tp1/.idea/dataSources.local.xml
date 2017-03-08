@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="H2 - jdbc:h2:tcp://localhost/~/bddDocker" uuid="e52d4605-71f6-4692-b714-264e9a69577e">
+      <database-info product="H2" version="1.4.191 (2016-01-21)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.4.191 (2016-01-21)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <introspection-scope>BDDDOCKER:public</introspection-scope>
+      <resolve-scope>BDDDOCKER:public</resolve-scope>
+    </data-source>
+  </component>
+</project>

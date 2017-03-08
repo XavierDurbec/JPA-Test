@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Animaux SYSTEM "/etudiants/xdurbec066/Bureau/JPA/TP1/TP1/animaux.dtd">
+<!-- La liste de les animaux -->
+<Animaux>
+  <!-- Un enclos mixte -->
+  <Enclos nom="parc1">
+    <Animal famille="Chat" nom="figaro">C'est un gentil chat</Animal>
+    <Animal famille="Chat" nom="moustache" malade="vrai"/>
+    <Animal famille="Chien" nom="rex"/>
+  </Enclos>
+  <!-- Un enclos de chiens -->
+  <Enclos nom="parc2">
+    <Animal famille="Chien" nom="brutus">C'est un vilan chien</Animal>
+    <Animal famille="Chien" nom="hercule"/>
+  </Enclos>
+  <!-- Un enclos de chats -->
+  <?JavaApplication ignoreNextEnclos?>  
+  <Enclos test="" nom="parc3">
+    <Animal famille="Chat" nom="fifi"/>
+    <Animal famille="Chat" nom="titi"/>
+  </Enclos>
+</Animaux>
